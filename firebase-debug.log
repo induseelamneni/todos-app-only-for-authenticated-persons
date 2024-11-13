@@ -1,0 +1,74 @@
+[debug] [2024-11-13T09:37:41.230Z] ----------------------------------------------------------------------
+[debug] [2024-11-13T09:37:41.231Z] Command:       /usr/local/bin/firebase /home/indu/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2024-11-13T09:37:41.232Z] CLI Version:   13.0.2
+[debug] [2024-11-13T09:37:41.232Z] Platform:      linux
+[debug] [2024-11-13T09:37:41.232Z] Node Version:  v18.5.0
+[debug] [2024-11-13T09:37:41.232Z] Time:          Wed Nov 13 2024 15:07:41 GMT+0530 (India Standard Time)
+[debug] [2024-11-13T09:37:41.233Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-13T09:37:41.237Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-13T09:37:41.237Z] > authorizing via signed-in user (sivaindu222@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/indu/Desktop/TodosApplication/my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-13T09:37:49.286Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-11-13T09:37:50.062Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-11-13T09:37:50.062Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project todosapp-78b38 (TodosApp) 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-13T09:37:54.302Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todosapp-78b38 [none]
+[debug] [2024-11-13T09:37:54.874Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todosapp-78b38 200
+[debug] [2024-11-13T09:37:54.876Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todosapp-78b38 {"projectId":"todosapp-78b38","projectNumber":"562147405119","displayName":"TodosApp","name":"projects/todosapp-78b38","resources":{"hostingSite":"todosapp-78b38"},"state":"ACTIVE","etag":"1_3840a37c-f48a-4990-8809-4a072228d37d"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-11-13T09:38:11.194Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-11-13T09:38:11.551Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-11-13T09:38:11.551Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.0.1","browserURL":"https://www.gstatic.com/firebasejs/11.0.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.0.1/firebase.tgz"},"live":{"version":"11.0","browserURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.0.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.0.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.0.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.0.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.0.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.0.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.0.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.0.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.0.1/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.0.1/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.memory.js"}}
+[info] ✔  Wrote y/index.html 
+[info] 
+[info] i  Detected a .git folder at /home/indu/Desktop/TodosApplication/my-app 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=722440270&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-11-13T09:38:33.413Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-11-13T09:38:33.413Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-11-13T09:38:33.845Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-11-13T09:38:33.847Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-11-13T09:38:33.930Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-11-13T09:38:34.468Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-11-13T09:38:34.468Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"induseelamneni","id":84839021,"node_id":"MDQ6VXNlcjg0ODM5MDIx","avatar_url":"https://avatars.githubusercontent.com/u/84839021?v=4","gravatar_id":"","url":"https://api.github.com/users/induseelamneni","html_url":"https://github.com/induseelamneni","followers_url":"https://api.github.com/users/induseelamneni/followers","following_url":"https://api.github.com/users/induseelamneni/following{/other_user}","gists_url":"https://api.github.com/users/induseelamneni/gists{/gist_id}","starred_url":"https://api.github.com/users/induseelamneni/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/induseelamneni/subscriptions","organizations_url":"https://api.github.com/users/induseelamneni/orgs","repos_url":"https://api.github.com/users/induseelamneni/repos","events_url":"https://api.github.com/users/induseelamneni/events{/privacy}","received_events_url":"https://api.github.com/users/induseelamneni/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Indu Seelamneni","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":65,"public_gists":0,"followers":0,"following":0,"created_at":"2021-05-26T08:13:32Z","updated_at":"2024-11-10T03:07:18Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":6187,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as induseelamneni 
+[info] 
+[debug] [2024-11-13T09:38:47.638Z] >>> [apiv2][query] GET https://api.github.com/repos/firebase deploye/actions/secrets/public-key type=owner
+[debug] [2024-11-13T09:38:47.948Z] <<< [apiv2][status] GET https://api.github.com/repos/firebase deploye/actions/secrets/public-key 404
+[debug] [2024-11-13T09:38:47.948Z] <<< [apiv2][body] GET https://api.github.com/repos/firebase deploye/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
